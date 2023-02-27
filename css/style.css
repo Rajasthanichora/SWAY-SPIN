@@ -74,7 +74,7 @@ ul a {
   background-image: url(/images/navbarbackk.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 493px;
+  height: 485px;
   display: flex;
   flex-direction: column;
   color: white;
@@ -97,3 +97,99 @@ ul a {
   margin-left: 58px;
   background-color: #ff6300;
 }
+
+/* !dancetour section */
+
+.dancetour {
+  background-color: #ff6300;
+  height: 700px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.dancetour img {
+  position: absolute;
+  right: 163px;
+  width: 846px;
+}
+
+/* ?dancetourtext */
+
+#dancetourtext {
+  text-align: center;
+  color: white;
+}
+#dancetourtext1 {
+  margin-top: 68px;
+  font-size: 45px;
+  font-weight: 900;
+}
+#dancetourtext2 {
+  margin-top: 45px;
+  width: 675px;
+}
+
+/* ?dancetour windows */
+
+.dancetourwindows {
+  height: 339px;
+  width: 100%;
+  justify-content: center;
+  gap: 43px;
+  margin-top: 77px;
+}
+.windowtital {
+  text-align: center;
+  padding-top: 18px;
+  font-size: 27px;
+}
+.windowdescription {
+  text-align: center;
+  margin-top: 5px;
+}
+.windowtext {
+  background-color: #282828;
+  color: white;
+  height: 114px;
+  width: 251px;
+}
+
+/* *dance tour window 1 */
+
+#dancetourwindow1 {
+  width: 25%;
+  border-radius: 3px;
+}
+#window1photo {
+  background-image: url(/images/dance-tour1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 219px;
+}
+
+/* *dance tour window 2 */
+
+#dancetourwindow2 {
+  width: 25%;
+  border-radius: 3px;
+}
+#window2photo {
+  background-image: url(/images/dance-tour2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 219px;
+}
+
+/* *dance tour window 3 */
+
+#dancetourwindow3 {
+  width: 25%;
+  border-radius: 3px;
+}
+#window3photo {
+  background-image: url(/images/dance-tour3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 219px;
+}
+

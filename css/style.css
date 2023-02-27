@@ -68,3 +68,32 @@ ul a {
   transition: 0.2s;
 }
 
+/* !header */
+
+#headerr {
+  background-image: url(/images/navbarbackk.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 493px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+}
+#tital {
+  font-size: 62px;
+  padding-left: 51px;
+  padding-top: 162px;
+}
+#discription {
+  font-size: 20px;
+  width: 403px;
+  padding-left: 56px;
+  margin-top: 12px;
+}
+.subscribe {
+  width: 182px;
+  margin-top: 32px;
+  margin-left: 58px;
+  background-color: #ff6300;
+}

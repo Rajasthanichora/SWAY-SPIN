@@ -76,7 +76,7 @@ ul a {
 /* !header */
 
 #headerr {
-  background-image: url(/images/navbarbackk.png);
+  background-image: url(./images/navbarbackk.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 485px;
@@ -170,7 +170,7 @@ ul a {
   z-index: 1;
 }
 #window1photo {
-  background-image: url(/images/dance-tour1.png);
+  background-image: url(./images/dance-tour1.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 219px;
@@ -183,7 +183,7 @@ ul a {
   border-radius: 3px;
 }
 #window2photo {
-  background-image: url(/images/dance-tour2.png);
+  background-image: url(./images/dance-tour2.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 219px;
@@ -196,7 +196,7 @@ ul a {
   border-radius: 3px;
 }
 #window3photo {
-  background-image: url(/images/dance-tour3.png);
+  background-image: url(./images/dance-tour3.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 219px;
@@ -254,7 +254,7 @@ ul a {
   z-index: 1;
 }
 .pricingphoto {
-  background-image: url(/images/ricing-icon.png);
+  background-image: url(./images/ricing-icon.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 95px;

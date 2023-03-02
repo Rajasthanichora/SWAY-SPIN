@@ -270,15 +270,7 @@ ul a {
   z-index: 1;
 }
 .pricingphoto {
-<<<<<<< Updated upstream
-<<<<<<< HEAD
   background-image: url(../images/ricing-icon.png);
-=======
-  background-image: url(/images/ricing-icon.png);
->>>>>>> d06a424 (amazing dance section complete)
-=======
-  background-image: url(../images/ricing-icon.png);
->>>>>>> Stashed changes
   background-repeat: no-repeat;
   background-size: contain;
   height: 95px;
@@ -335,13 +327,6 @@ ul a {
   height: 333px;
   width: 25%;
   border-radius: 3px;
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> d06a424 (amazing dance section complete)
-=======
 }
 
 /* !Amazing dance section */
@@ -417,4 +402,3 @@ ul a {
   margin-top: 12px;
   margin-left: 18px;
 }
->>>>>>> Stashed changes

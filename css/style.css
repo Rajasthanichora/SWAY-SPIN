@@ -254,7 +254,11 @@ ul a {
   z-index: 1;
 }
 .pricingphoto {
+<<<<<<< HEAD
   background-image: url(../images/ricing-icon.png);
+=======
+  background-image: url(/images/ricing-icon.png);
+>>>>>>> d06a424 (amazing dance section complete)
   background-repeat: no-repeat;
   background-size: contain;
   height: 95px;
@@ -310,4 +314,8 @@ ul a {
   height: 333px;
   width: 25%;
   border-radius: 3px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d06a424 (amazing dance section complete)

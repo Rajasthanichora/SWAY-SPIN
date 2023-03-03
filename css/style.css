@@ -83,7 +83,11 @@ ul a {
   transform: scale(1.1);
   transition: 0.2s;
 }
-
+.bestdancebtn:hover {
+  background-color: black;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
 /* !header */
 
 #headerr {
@@ -332,7 +336,7 @@ ul a {
 /* !Amazing dance section */
 
 .amzingdance {
-  height: 691px;
+  height: 690px;
 }
 .amazingbtn {
   background-color: #2c2c2c;
@@ -401,4 +405,73 @@ ul a {
   text-align: start;
   margin-top: 12px;
   margin-left: 18px;
+}
+
+/* !Best dance section */
+
+.bestdance {
+  height: 688px;
+  display: flex;
+}
+.bestdancebtn {
+  background-color: #2c2c2c;
+  padding: 8px 88px;
+  border-radius: 4px;
+  color: white;
+  width: 253px;
+  margin-top: 55px;
+  margin-right: 16px;
+  z-index: 1;
+  font-family: oswald;
+}
+
+/* ?sectionamazing */
+
+#sectionbestdance {
+  background-color: #ff6300;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#sectionbestdance img {
+  position: absolute;
+  width: 448px;
+  left: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+/* *amazing tital */
+
+#bestdancetital {
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  font-family: oswald;
+  margin-left: -67px;
+  z-index: 1;
+}
+
+/* *amazing discription */
+
+#bestdancediscription {
+  z-index: 1;
+  color: white;
+  width: 70%;
+  text-align: start;
+  margin-top: 12px;
+  margin-left: 88px;
+}
+
+/* ?amazingimg */
+
+#bestdancegimg {
+  background-image: url(../images/bestdance-section.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  background-size: contain;
 }

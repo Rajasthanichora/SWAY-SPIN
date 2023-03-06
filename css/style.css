@@ -540,3 +540,34 @@ ul a {
   padding-right: 7px;
   color: white;
 }
+
+/* !hert beat simon section */
+
+.hertbeatsimon {
+  background-image: url(../images/red-section.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 678px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ?hertbeatdiscription */
+
+#hertbeatdiscription {
+  color: white;
+  width: 51%;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* ?hertbeattital */
+
+#hertbeattital {
+  color: white;
+  padding-top: 34px;
+  font-family: "Oswald";
+  font-size: 33px;
+}

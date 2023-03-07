@@ -73,21 +73,18 @@ ul a {
   transform: scale(1.1);
   transition: 0.2s;
 }
-.pricebtn:hover {
+.hoverbtn:hover {
   background-color: black;
   transform: scale(1.1);
   transition: 0.2s;
 }
-.amazingbtn:hover {
+.subssecbtn:hover {
   background-color: black;
   transform: scale(1.1);
   transition: 0.2s;
+  border-radius: 3px;
 }
-.bestdancebtn:hover {
-  background-color: black;
-  transform: scale(1.1);
-  transition: 0.2s;
-}
+
 /* !header */
 
 #headerr {
@@ -570,4 +567,67 @@ ul a {
   padding-top: 34px;
   font-family: "Oswald";
   font-size: 33px;
+}
+
+/* !subscribe section */
+
+.subscribesec {
+  background-image: url(../images/subscibe-section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ff6300;
+  display: flex;
+  flex-direction: column;
+  height: 390px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* ?subscribe tital */
+
+#subscribetital {
+  color: white;
+  font-size: 47px;
+  font-family: "Oswald";
+  font-weight: 600;
+  z-index: 1;
+}
+
+/* ?subscribe discription */
+
+#subscribediscription {
+  color: white;
+  font-size: 16px;
+  padding-top: 27px;
+  width: 80%;
+  text-align: center;
+  z-index: 1;
+}
+
+/* ?subscribe form*/
+
+#subscribeform {
+  display: flex;
+  padding-top: 40px;
+  z-index: 1;
+}
+
+/* *subscribe input btn*/
+
+#subsinputbtn {
+  padding: 9px 152px;
+  text-align: start;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #282828;
+  border-style: none;
+}
+
+/* *subscribesec btn*/
+
+.subssecbtn {
+  padding: 6px 32px;
+  border-radius: 0px 3px 3px 0px;
+  background-color: #282828;
 }

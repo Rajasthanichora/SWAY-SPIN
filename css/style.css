@@ -84,6 +84,17 @@ ul a {
   transition: 0.2s;
   border-radius: 3px;
 }
+.iconfootsocial:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+.footlinklist ul li:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.footlinklist ul li a:hover{
+  color: #ff6300;
+}
 
 /* !header */
 
@@ -630,4 +641,98 @@ ul a {
   padding: 6px 32px;
   border-radius: 0px 3px 3px 0px;
   background-color: #282828;
+}
+
+/* !footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282828;
+  height: 339px;
+}
+
+/* ?footerr */
+
+.footerr {
+  margin: 40px;
+  height: 190px;
+  display: flex;
+  gap: 42px;
+}
+
+/* ?icons */
+
+#iconfooter {
+  padding-top: 23px;
+  width: 127px;
+  height: 55px;
+}
+#iconfooter ul {
+  display: flex;
+  padding: 0px;
+}
+#iconfooter ul a {
+  padding: 0px;
+}
+.iconfootsocial {
+  height: 24px;
+  width: 24px;
+  background: none;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+#iconn-insta {
+  background-image: url(../images/insta-icon.png);
+}
+#iconn-fb {
+  background-image: url(../images/fbr-icon.png);
+}
+#iconn-twitter {
+  background-image: url(../images/twiter-icon.png);
+}
+#iconn-whatsapp {
+  background-image: url(../images/whatsaap-icon.png);
+}
+
+/* ?tital */
+
+.titalfootsec {
+  color: white;
+  font-size: 24px;
+  font-family: oswald;
+  letter-spacing: 1px;
+}
+
+/* ?discription */
+
+.discriptionfootsec {
+  color: #bdbdbd;
+  font-size: 14px;
+  padding-top: 12px;
+  width: 85%;
+}
+
+/* ?linklist */
+
+.footlinklist {
+  font-size: 14px;
+}
+.footlinklist ul {
+  padding: 0px;
+  list-style: none;
+}
+.footlinklist ul li {
+  padding-top: 10px;
+}
+.footlinklist ul li a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+
+/* *musicology */
+
+#musicologysec {
+  width: 39%;
 }

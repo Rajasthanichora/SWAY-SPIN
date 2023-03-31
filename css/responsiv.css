@@ -101,6 +101,73 @@
     height: 150px;
   } */
 
+
+
+  .subscribesec {
+    height: 100%;
+    width: 100%;
+  }
+
+
+  #subscribetital {
+    font-size: 30px;
+  }
+
+
+  #subscribediscription {
+    font-size: 14px;
+    padding-top: 25px;
+    width: 90%;
+  }
+
+  #subscribeform {
+    display: block;
+    padding-top: 22px;
+    margin-bottom: 10px;
+  }
+
+
+  #subsinputbtn {
+    padding: 8px 37px;
+    padding-left: 37px;
+  text-align: start;
+  padding-left: 12px;
+  font-size: unset;
+  border-radius: 3px;
+  }
+
+  .subssecbtn {
+    padding: 3px 50px;
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////// */
+/* ///////////////////////////// */
+  /* /////////////////////////// */
   footer {
     height: 100%;
     align-items: flex-start;

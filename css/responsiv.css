@@ -1,89 +1,67 @@
 @media screen and (max-width: 480px) {
+  /* #navlogo {
+    padding-left: 10px;
+  }
 
-    #navlogo {
-        padding-left: 10px;
-      }
+  #navlogo img {
+    width: 55px;
+  }
 
+  #navbar {
+    height: 35px;
+  }
 
-    #navlogo img {
-        width: 55px;
- }
+  ul {
+    padding: 10px;
+  }
 
-      #navbar {
-        height: 35px;
-      }
+  ul a {
+    padding-right: 2vw;
+  }
 
+  #navsearch {
+    padding: 10px 12px;
+  }
 
-      ul {
-        padding: 10px;
-      }
+  #tital {
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 50px;
+  }
 
-      ul a {
-        padding-right: 2vw;
-     }
+  #discription {
+    font-size: 9px;
+    width: 243px;
+    padding-left: 15px;
+    margin-top: 0;
+  }
 
-      #navsearch {
-        padding: 10px 12px;
-      }
+  .subscribe {
+    width: 87px;
+    margin-top: 6px;
+    margin-left: 14px;
+    background-color: #ff6300;
+    padding: 3px 12px;
+    margin-bottom: 16px;
+  }
+  .dancetour img {
+    position: absolute;
+    left: 0;
+    width: 349px;
+    opacity: 0.8;
+  }
 
-      #tital {
-        font-size: 13px;
-        padding-left: 15px;
-        padding-top: 50px;
-      }
+  #dancetourtext1 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
 
-      #discription {
-        font-size: 9px;
-        width: 243px;
-        padding-left: 15px;
-        margin-top: 0;
-      }
+  #dancetourtext2 {
+    margin-top: 3px;
+    width: 100%;
+  }
 
-      .subscribe {
-        width: 87px;
-        margin-top: 6px;
-        margin-left: 14px;
-        background-color: #ff6300;
-        padding: 3px 12px;
-        margin-bottom: 16px;
-      }
-      .dancetour img {
-        position: absolute;
-        left: 0;
-        width: 349px;
-        opacity: 0.8;
-      }
-
-
-      #dancetourtext1 {
-        margin-top: 10px;
-        font-size: 20px;
-      }
-
-      #dancetourtext2 {
-        margin-top: 3px;
-        width: 100%;
-      }
-
-
-      /* .dancetourwindows {
-        height: auto;
-        width: 100%;
-        justify-content: center;
-        gap: 0;
-        margin-top: 0;
-        flex-direction: column;
-        align-items: center;
-      } */
-
-      /* #dancetourwindow1 {
-        width: auto;
-        border-radius: 3px;
-      }
- */
-
-
- .dancetourwindows {
+  .dancetourwindows {
     height: 303px;
     width: 100%;
     justify-content: center;
@@ -91,22 +69,16 @@
     margin-top: 15px;
   }
 
-
-
   #window1photo {
     background-size: cover;
     height: 9vh;
   }
-
-
 
   #window2photo {
     background-size: cover;
     height: 9vh;
   }
 
-
-  
   #window3photo {
     background-size: cover;
     height: 9vh;
@@ -127,11 +99,61 @@
 
   .dancetourwindows {
     height: 150px;
+  } */
+
+  footer {
+    height: 100%;
+    align-items: flex-start;
   }
 
-
-  
-
-
-
+  .footerr {
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 40px;
   }
+
+  #musicologysec {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .discriptionfootsec {
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  #iconfooter {
+    padding-top: 8px;
+    height: 40px;
+  }
+
+  .footlinklist ul {
+    display: flex;
+    gap: 10px;
+  }
+
+  .footlinklist ul li a {
+    word-wrap: break-word;
+    display: inline-block;
+  }
+
+  .footlinklist ul li {
+    width: 100%;
+  }
+
+  ul a {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .footlinklist ul {
+    display: block;
+  }
+}

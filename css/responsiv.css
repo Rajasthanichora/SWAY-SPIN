@@ -4,15 +4,83 @@
     justify-content: center;
   }
 
+  #amazinggimg {
+    height: auto;
+    background-size: cover;
+  }
+
+  .amzingdance {
+    height: 100%;
+  }
+
+  #sectionamazing img {
+    width: 100%;
+  }
+
+  #amazingtital {
+    font-size: 20px;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  #amazingdiscription {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 12px;
+    padding: 11px;
+  }
+
+  .amazingbtn {
+    padding: 5px 11px;
+    width: 68px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .bestdance {
+    height: 100%;
+  }
+
+  #sectionbestdance img {
+    width: 100%;
+  }
+
+  #bestdancetital {
+    font-size: 20px;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  #bestdancediscription {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 12px;
+    padding: 11px;
+  }
+
+  .bestdancebtn {
+    padding: 5px 14px;
+    width: 68px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  #bestdancegimg {
+    height: auto;
+    background-size: cover;
+  }
+
   #ourstatetital {
-    font-size: 3em;
+    font-size: 23px;
     padding-top: 14px;
   }
 
   #ourstatediscription {
     width: 100%;
     padding-top: 10px;
-    font-size: 1.3em;
+    font-size: 12px;
   }
 
   #ourstatesection {
@@ -22,7 +90,7 @@
   }
 
   .statesevnum1 {
-    font-size: 2em;
+    font-size: 20px;
   }
 
   #ourstatesection {
@@ -33,13 +101,13 @@
     color: white;
     padding-top: 28px;
     font-family: "Oswald";
-    font-size: 2.3rem;
+    font-size: 22px;
     margin-bottom: 145px;
   }
 
   #hertbeatdiscription {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 13px;
     margin-top: 28px;
   }
 

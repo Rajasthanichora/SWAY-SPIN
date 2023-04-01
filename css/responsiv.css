@@ -1,105 +1,33 @@
 @media screen and (max-width: 480px) {
-  /* #navlogo {
-    padding-left: 10px;
-  }
-
-  #navlogo img {
-    width: 55px;
-  }
-
-  #navbar {
-    height: 35px;
-  }
-
-  ul {
-    padding: 10px;
-  }
-
-  ul a {
-    padding-right: 2vw;
-  }
-
-  #navsearch {
-    padding: 10px 12px;
-  }
-
-  #tital {
-    font-size: 13px;
-    padding-left: 15px;
-    padding-top: 50px;
-  }
-
-  #discription {
-    font-size: 9px;
-    width: 243px;
-    padding-left: 15px;
-    margin-top: 0;
-  }
-
-  .subscribe {
-    width: 87px;
-    margin-top: 6px;
-    margin-left: 14px;
-    background-color: #ff6300;
-    padding: 3px 12px;
-    margin-bottom: 16px;
-  }
-  .dancetour img {
-    position: absolute;
-    left: 0;
-    width: 349px;
-    opacity: 0.8;
-  }
-
-  #dancetourtext1 {
-    margin-top: 10px;
-    font-size: 20px;
-  }
-
-  #dancetourtext2 {
-    margin-top: 3px;
-    width: 100%;
-  }
-
-  .dancetourwindows {
-    height: 303px;
-    width: 100%;
+  .ourstatics {
+    height: 100%;
     justify-content: center;
-    gap: 15px;
-    margin-top: 15px;
   }
 
-  #window1photo {
-    background-size: cover;
-    height: 9vh;
+  #ourstatetital {
+    font-size: 3em;
+    padding-top: 14px;
   }
 
-  #window2photo {
-    background-size: cover;
-    height: 9vh;
-  }
-
-  #window3photo {
-    background-size: cover;
-    height: 9vh;
-  }
-  .windowtext {
-    height: 100px;
+  #ourstatediscription {
     width: 100%;
+    padding-top: 10px;
+    font-size: 1.3em;
   }
 
-  .windowtital {
-    padding-top: 0;
-    font-size: 1.6rem;
+  #ourstatesection {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-  .windowdescription {
-    font-size: 1rem;
+  .statesevnum1 {
+    font-size: 2em;
   }
 
-  .dancetourwindows {
-    height: 150px;
-  } */
+  #ourstatesection {
+    height: 100px;
+  }
 
   #hertbeattital {
     color: white;
